@@ -575,7 +575,7 @@ li {
 .pricing ul li::before {
   content: "";
   display: inline-block;
-  background-image: url("../assets/tick.svg");
+  background-image: url("./assets/tick.svg");
   background-repeat: no-repeat;
   height: 12px;
   width: 16px;
