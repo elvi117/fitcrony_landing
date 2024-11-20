@@ -16,14 +16,6 @@
     </head>
 
     <body>
-    
-
-  <script>
-    function sendMessage() {
-      const message = 'Hello from Child Window!';
-     window.parent.postMessage("testy", "*");
-    }
-  </script>
         <nav>
             <div id="logo">
                 <img src="./assets/logo.png"
@@ -293,5 +285,13 @@
                 </li>
             </ul>
         </footer>
+
+          <script>
+    function sendMessage() {
+      const message = 'Hello from Child Window!';
+        console.log("Hello world!");
+     window.parent.postMessage("testy", "*");
+    }
+  </script>
     </body>
 </html>
