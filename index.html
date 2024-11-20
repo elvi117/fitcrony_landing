@@ -16,6 +16,14 @@
     </head>
 
     <body>
+    
+
+  <script>
+    function sendMessage() {
+      const message = 'Hello from Child Window!';
+     window.parent.postMessage("testy", "*");
+    }
+  </script>
         <nav>
             <div id="logo">
                 <img src="./assets/logo.png"
@@ -28,7 +36,7 @@
             <button class="secondary_action_button">
                 Pricing
             </button>
-            <button class="action_button">
+            <button class="action_button" onclick="sendMessage()">
                 Get Started
             </button>
         </nav>
